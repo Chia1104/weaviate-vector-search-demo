@@ -1,0 +1,19 @@
+{
+  "name": "weaviate-vector-search-demo",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "db:up": "docker compose up",
+    "dev": "bun run --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "weaviate-client": "^3.5.3"
+  }
+}
