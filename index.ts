@@ -11,7 +11,7 @@ await client.isReady();
 
 const script = new Script(client);
 script.demo(
-  "What is the capital of Taiwan?",
+  "美國的首都在哪?",
   // Initialize the collection and seed it with data
   false
 );
